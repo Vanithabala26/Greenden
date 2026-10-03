@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden</title>
+    <!--Tailwindcss-->
+    <link href="
+https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--Responsive nav bar-->
+    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl">Greenden</h1>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+            class="md:hidden">
+            <path
+                d="M7 7.25C6.58579 7.25 6.25 7.58579 6.25 8C6.25 8.41421 6.58579 8.75 7 8.75V7.25ZM17 8.75C17.4142 8.75 17.75 8.41421 17.75 8C17.75 7.58579 17.4142 7.25 17 7.25V8.75ZM7 11.25C6.58579 11.25 6.25 11.5858 6.25 12C6.25 12.4142 6.58579 12.75 7 12.75V11.25ZM17 12.75C17.4142 12.75 17.75 12.4142 17.75 12C17.75 11.5858 17.4142 11.25 17 11.25V12.75ZM7 15.25C6.58579 15.25 6.25 15.5858 6.25 16C6.25 16.4142 6.58579 16.75 7 16.75V15.25ZM17 16.75C17.4142 16.75 17.75 16.4142 17.75 16C17.75 15.5858 17.4142 15.25 17 15.25V16.75ZM7 8.75H17V7.25H7V8.75ZM7 12.75H17V11.25H7V12.75ZM7 16.75H17V15.25H7V16.75Z"
+                fill="#28303F" />
+        </svg>
+
+        <ul class="flex gap-5 text-gray-600 hidden md:flex">
+            <li>
+                <a class="hover:underline hover:text-black" href="file:///C:/Users/turbo/OneDrive/Desktop/FSWD/TAILWINDCSS/index.html#">Home</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="file:///C:/Users/turbo/OneDrive/Desktop/FSWD/TAILWINDCSS/product.html">Products</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="file:///C:/Users/turbo/OneDrive/Desktop/FSWD/TAILWINDCSS/contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!--Header Section-->
+
+    <section class=" bg-green-100 p-4 md:p-10 flex justify-center">
+        <div>
+            <p class="mb-4">We offer you a wide range of Artificial and Natural Flowers</p>
+            <h2 class="font-bold text-3xl md:text-5xl mb-5">Plants for your Interior</h2>
+            <div>
+                <button class="bg-black rounded p-2 text-white">Shop Now</button>
+                <button class="border border-black p-2">Watch Video</button>
+            </div>
+            <p class="mt-5">160+ Plant Species | 100+ clients</p>
+        </div>
+        <div class="hidden md:block p-6">
+            <img src="./Image/header-image.webp" alt="header-image" class="w-80">
+        </div>
+    </section>
+
+    <!--About-->
+
+    <section class="text-center">
+        <h1 class="text-3xl font-bold mt-5">About Us</h1>
+        <p>This site for those who admire the beauty and harmony of nature</p>
+        <div class="md:flex">
+
+            <div class="border border-black p-2 m-6">
+                <svg width="46" height="46" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="inline">
+                    <path
+                        d="M17 13.75C17.4142 13.75 17.75 13.4142 17.75 13C17.75 12.5858 17.4142 12.25 17 12.25V13.75ZM11 12.25C10.5858 12.25 10.25 12.5858 10.25 13C10.25 13.4142 10.5858 13.75 11 13.75V12.25ZM17 9.75C17.4142 9.75 17.75 9.41421 17.75 9C17.75 8.58579 17.4142 8.25 17 8.25V9.75ZM11 8.25C10.5858 8.25 10.25 8.58579 10.25 9C10.25 9.41421 10.5858 9.75 11 9.75V8.25ZM17 17.75C17.4142 17.75 17.75 17.4142 17.75 17C17.75 16.5858 17.4142 16.25 17 16.25V17.75ZM11 16.25C10.5858 16.25 10.25 16.5858 10.25 17C10.25 17.4142 10.5858 17.75 11 17.75V16.25ZM16.75 2C16.75 1.58579 16.4142 1.25 16 1.25C15.5858 1.25 15.25 1.58579 15.25 2H16.75ZM15.25 5C15.25 5.41421 15.5858 5.75 16 5.75C16.4142 5.75 16.75 5.41421 16.75 5H15.25ZM8.75 2C8.75 1.58579 8.41421 1.25 8 1.25C7.58579 1.25 7.25 1.58579 7.25 2H8.75ZM7.25 5C7.25 5.41421 7.58579 5.75 8 5.75C8.41421 5.75 8.75 5.41421 8.75 5H7.25ZM7 4.25H17V2.75H7V4.25ZM20.25 7.5V18H21.75V7.5H20.25ZM17 21.25H7V22.75H17V21.25ZM3.75 18V7.5H2.25V18H3.75ZM7 21.25C5.20507 21.25 3.75 19.7949 3.75 18H2.25C2.25 20.6234 4.37665 22.75 7 22.75V21.25ZM20.25 18C20.25 19.7949 18.7949 21.25 17 21.25V22.75C19.6234 22.75 21.75 20.6234 21.75 18H20.25ZM17 4.25C18.7949 4.25 20.25 5.70507 20.25 7.5H21.75C21.75 4.87665 19.6234 2.75 17 2.75V4.25ZM7 2.75C4.37665 2.75 2.25 4.87665 2.25 7.5H3.75C3.75 5.70507 5.20507 4.25 7 4.25V2.75ZM17 12.25H11V13.75H17V12.25ZM17 8.25H11V9.75H17V8.25ZM17 16.25H11V17.75H17V16.25ZM15.25 2V5H16.75V2H15.25ZM7.25 2V5H8.75V2H7.25Z"
+                        fill="#28303F" />
+                    <path
+                        d="M8.5 9C8.5 9.55228 8.05228 10 7.5 10C6.94772 10 6.5 9.55228 6.5 9C6.5 8.44772 6.94772 8 7.5 8C8.05228 8 8.5 8.44772 8.5 9Z"
+                        fill="#28303F" />
+                    <path
+                        d="M8.5 13C8.5 13.5523 8.05228 14 7.5 14C6.94772 14 6.5 13.5523 6.5 13C6.5 12.4477 6.94772 12 7.5 12C8.05228 12 8.5 12.4477 8.5 13Z"
+                        fill="#28303F" />
+                    <path
+                        d="M8.5 17C8.5 17.5523 8.05228 18 7.5 18C6.94772 18 6.5 17.5523 6.5 17C6.5 16.4477 6.94772 16 7.5 16C8.05228 16 8.5 16.4477 8.5 17Z"
+                        fill="#28303F" />
+                </svg>
+
+
+
+                <h2 class="text-xl font-medium">Large Assortment</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio dolorum omnis magnam minima nulla non
+                    quae libero eaque expedita suscipit esse enim deserunt, voluptatibus autem?</p>
+            </div>
+            <div class="border border-black p-2 m-6">
+                <svg width="46" height="46" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                    class="inline">
+                    <path
+                        d="M4.5 4.5h15.129l-2.69-2.69L18 .75l4.5 4.5-4.5 4.5-1.06-1.06L19.628 6H4.5v5.25H3V6a1.502 1.502 0 0 1 1.5-1.5Z">
+                    </path>
+                    <path
+                        d="M7.06 15.31 4.372 18H19.5v-5.25H21V18a1.502 1.502 0 0 1-1.5 1.5H4.371l2.69 2.69L6 23.25l-4.5-4.5 4.5-4.5 1.06 1.06Z">
+                    </path>
+                </svg>
+                <h2 class="text-xl font-medium">Free and Fast Shipping</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur eius mollitia illo? Reprehenderit
+                    sequi voluptate ipsam dolorum obcaecati explicabo labore tempora nisi. Adipisci, facere aliquid.</p>
+            </div>
+            <div class="border border-black p-2 m-6">
+                <svg width="46" height="46" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                    class="inline">
+                    <path
+                        d="M6.54 5c.06.89.21 1.76.45 2.59l-1.2 1.2c-.41-1.2-.67-2.47-.76-3.79h1.51Zm9.86 12.02c.85.24 1.72.39 2.6.45v1.49c-1.32-.09-2.59-.35-3.8-.75l1.2-1.19ZM7.5 3H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.49c0-.55-.45-1-1-1-1.24 0-2.45-.2-3.57-.57a.84.84 0 0 0-.31-.05c-.26 0-.51.1-.71.29l-2.2 2.2a15.149 15.149 0 0 1-6.59-6.59l2.2-2.2c.28-.28.36-.67.25-1.02A11.36 11.36 0 0 1 8.5 4c0-.55-.45-1-1-1Z">
+                    </path>
+                </svg>
+                <h2 class="text-xl font-medium">24/7 Support</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium excepturi iste non harum
+                    quibusdam quos autem possimus explicabo recusandae ea, id obcaecati assumenda nisi ipsum.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Best Seller-->
+    <section class="p-4 text-center">
+        <h1 class = "font-bold mt-5 text-3xl ">Bestseller</h1>
+        <div class = "grid grid-cols-2 md:grid-cols-4 mt-5 gap-6 ">
+            <div>
+                <img src = "./Image/Bestseller1.jpg" class ="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Rose Plant</h1>
+                <p>$20</p>
+            </div>    
+            <div>
+                <img src = "./Image/Bestseller2.jpg" class ="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Lilly Plant</h1>
+                <p>$20</p>
+            </div> 
+            <div>
+                <img src = "./Image/Bestseller3.jpg" class ="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Snake Plant</h1>
+                <p>$20</p>
+            </div> 
+            <div>
+                <img src = "./Image/Bestseller4.jpg" class ="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Money Plant</h1>
+                <p>$20</p>
+            </div> 
+                
+            
+        </div>
+
+    </section>
+
+    <!--Customer reviews-->
+    <section>
+        <h1 class ="font-bold mt-5 text-3xl text-center">Customer Reviews</h1>
+        <div class ="flex flex-col gap-5 justify-center text-white m-5">
+        <div class ="bg-green-500 p-5 container">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ut ratione omnis earum pariatur, quia rem sit? Temporibus nemo ullam non deserunt laudantium aperiam possimus?</p>
+        <p class ="font-bold text-yellow-300">Jose</p>
+        </div>
+         <div class ="bg-green-500 p-5 container">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ut ratione omnis earum pariatur, quia rem sit? Temporibus nemo ullam non deserunt laudantium aperiam possimus?</p>
+        <p class ="font-bold text-yellow-300">Naveen</p>
+        </div>
+         <div class ="bg-green-500 p-5 container">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ut ratione omnis earum pariatur, quia rem sit? Temporibus nemo ullam non deserunt laudantium aperiam possimus?</p>
+        <p class ="font-bold text-yellow-300">Matias</p>
+        </div>
+        </div>
+
+    </section>
+
+    <!--Newsletter-->
+    <section class ="text-center">
+        <h1 class="text-3xl font-bold mt-5 text-center">Join our News Letter</h1>
+        <p>Signing for our email newspaper to get exclusive discounts,updates and more</p>
+        <input type="text" class="border border-black p-2 m-3" style="width: 80%"><br>
+        <button class ="text-center bg-black text-white p-4 m-1 underline">Subscribe</button>
+    </section>
+
+    <!--footer-->
+    <section class="bg-green-100 p-10 flex flex-col gap-5">
+        <h1 class="text-4xl font-bold">Greenden</h1>
+        <p class>The Standard chunk of Lorem ipsum used since 1500s is reprodeced below for those interest</p>
+        <p>@2021 Greenday.com</p>
+    </section>
+
+
+
+</body>
+
+</html>
